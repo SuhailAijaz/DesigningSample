@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.chip.ChipGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UI/UX Design" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chiptwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developer" />
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipthree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IOS" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipfour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flutter" />
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipfive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="React" />
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipsix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Angular" />
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipseven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NodeJs" />
+
+
+    </com.google.android.material.chip.ChipGroup>
+</LinearLayout>
